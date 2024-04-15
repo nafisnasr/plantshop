@@ -1,0 +1,21 @@
+/* ? Start Categories Styles */
+.categories {
+  margin: 1rem 0rem;
+}
+.categories-container {
+  background-color: var(--light-blue);
+  padding: 1.5rem;
+  width: 100%;
+}
+.categories .wrapper {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.categories .more-info-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

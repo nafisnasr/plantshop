@@ -1,0 +1,13 @@
+/*? Title Section Styles */
+#title-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#title-section .title {
+  font-weight: bold;
+}
+#title-section .text{
+  text-align: center;
+}

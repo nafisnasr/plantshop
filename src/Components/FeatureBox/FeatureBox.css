@@ -1,0 +1,26 @@
+/*? feature box styles */
+.feature-box {
+  padding: 1rem;
+  margin: 1rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.feature-box .title {
+  font-weight: bold;
+  text-align: center;
+}
+.feature-box .icon-box {
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: var(--light-blue);
+  margin: 0.8rem 0rem;
+}
+.feature-box .icon-box .icon {
+  width: 1.5rem;
+}
+.feature-box .text {
+  text-align: center;
+  font-size: 0.9rem;
+}

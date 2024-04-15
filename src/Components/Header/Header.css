@@ -1,0 +1,75 @@
+/* ? Header Styles */
+header .wrapper {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  background-color: var(--light-blue);
+  border-radius: 1.3rem;
+}
+header .title {
+  font-weight: 700;
+  font-size: 3rem;
+}
+header .charts {
+  display: flex;
+  align-items: center;
+  margin: 1.2rem 0rem;
+}
+header .charts .chart-box {
+  margin: 0rem 1rem;
+}
+header .chart-box p {
+  font-size: 1rem;
+}
+header .input-container {
+  display: flex;
+  align-items: center;
+  margin: 1.2rem 0rem;
+  background-color: var(--white);
+  border-radius: 1.3rem;
+}
+header .input-container input {
+  width: 90%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 1rem;
+}
+header .search-btn {
+  background-color: var(--light-blue);
+  border: none;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.7rem;
+}
+header .right-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+header .right-section .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .right-section .img-container .img {
+  border-radius: 50%;
+  background-color: #212121;
+  width: 50%;
+  padding: 1rem;
+}
+header .right-section .top-arrow {
+  left: 0;
+  top: 0;
+}
+
+header .right-section .arrow {
+  width: 150px;
+  position: absolute;
+}
+header .right-section .bottom-arrow {
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+}

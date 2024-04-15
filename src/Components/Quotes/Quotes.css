@@ -1,0 +1,13 @@
+/* ? Start Quotes Styles */
+.quotes {
+  padding: 1rem;
+  margin: 1rem 0rem;
+}
+.quotes .title-box .title{
+    font-weight: 700;
+}
+.quotes .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

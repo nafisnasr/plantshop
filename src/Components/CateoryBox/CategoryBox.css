@@ -1,0 +1,15 @@
+/*? Category Box Styles */
+.category-box {
+  padding: 1rem;
+  margin: 1rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.category-box img {
+  width: 95%;
+}
+.category-box span {
+  margin-top: 0.5rem;
+}

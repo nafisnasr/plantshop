@@ -1,0 +1,9 @@
+/*? Products styles */
+.products{
+  margin: 2rem 0rem;
+}
+.products .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

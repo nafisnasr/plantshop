@@ -1,0 +1,28 @@
+/*? start QuoteBox Styles */
+.quote-box {
+  padding: 1rem;
+  background-color: var(--light-blue);
+  border-radius: 1.3rem;
+}
+.quote-box .icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.quote-box .author-box,
+.quote-box .author-box .author {
+  display: flex;
+}
+.quote-box .author-box {
+  justify-content: space-around;
+}
+.quote-box .author-box .quote {
+  width: 3rem;
+}
+.quote-box .author-box .author {
+  justify-content: center;
+  flex-direction: column;
+}
+.quote-box .author-box .author .name {
+  font-weight: bold;
+}
